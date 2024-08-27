@@ -1,1 +1,1 @@
-# terraform-google-workspace
+# Terraform Organization
