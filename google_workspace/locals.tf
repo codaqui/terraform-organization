@@ -196,13 +196,13 @@ locals {
     },
     // DevParaná Users Accounts (devpr.org)
     {
-      first_name = "Guilherme"
-      last_name = "Siquinelli"
-      primary_email = "guilherme@devpr.org"
+      first_name     = "Guilherme"
+      last_name      = "Siquinelli"
+      primary_email  = "guilherme@devpr.org"
       personal_email = "email@guiseek.dev"
       personal_phone = null
-      external_ids = "DEVPR-001"
-      is_admin = false
+      external_ids   = "DEVPR-001"
+      is_admin       = false
     }
 
     // Alunos Codaqui Accounts (alunos.codaqui.dev)
