@@ -2,7 +2,7 @@
 
 ## Google Workspace Admin Management
 
-This repository contains Terraform code to manage Google Workspace Admin, create accounts from a CSV file, associate them with email groups, and manage shared drives.
+This repository contains Terraform code to manage Google Workspace Admin, create accounts from local variables, associate them with email groups, and manage shared drives.
 
 ### Prerequisites
 
