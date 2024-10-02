@@ -15,6 +15,25 @@ locals {
       domain_name = "devpr.org"
       is_alias    = false
       parent      = null
+    },
+    {
+      domain_name = "camposvalley.com.br"
+      is_alias    = false
+      parent      = null
+    }
+  ]
+
+  // Groups (Not Working Yet)
+  groups = [
+    {
+      group_name = "Comunidade Codaqui"
+      email      = "comunidade@codaqui.dev"
+      is_public  = false
+    },
+    {
+      group_name = "Contato Codaqui"
+      email = "contato@codaqui.dev"
+      is_public = false
     }
   ]
 
@@ -194,6 +213,15 @@ locals {
       external_ids   = "CODAQUI-018"
       is_admin       = false
     },
+    {
+      first_name     = "Rebecca"
+      last_name      = "Ignacio"
+      primary_email  = "rebecca@codaqui.dev"
+      personal_email = "rebeccaignacio1996@gmail.com"
+      personal_phone = null
+      external_ids   = "CODAQUI-019"
+      is_admin       = false
+    },
     // DevParaná Users Accounts (devpr.org)
     {
       first_name     = "Guilherme"
@@ -202,9 +230,38 @@ locals {
       personal_email = "email@guiseek.dev"
       personal_phone = null
       external_ids   = "DEVPR-001"
-      is_admin       = false
-    }
+      is_admin       = true
+    },
+    {
+      first_name     = "Ivo"
+      last_name      = "Batistela"
+      primary_email  = "ivo@devpr.org"
+      personal_email = "irbatistela@gmail.com"
+      personal_phone = "+5546999362033"
+      external_ids   = "DEVPR-002"
+      is_admin       = true
+    },
 
     // Alunos Codaqui Accounts (alunos.codaqui.dev)
+
+    // Campos Valley (camposvalley.com.br)
+    {
+      first_name     = "Elina"
+      last_name      = "Torres"
+      primary_email  = "elina@camposvalley.com.br"
+      personal_email = "elinatorresn@gmail.com"
+      personal_phone = null
+      external_ids   = "CAMPOS-001"
+      is_admin       = false
+    },
+    {
+      first_name     = "João Vitor"
+      last_name      = "Martins dos Santos"
+      primary_email  = "goku@camposvalley.com.br"
+      personal_email = "qakarotto@gmail.com"
+      personal_phone = null
+      external_ids   = "CAMPOS-002"
+      is_admin       = false
+    }
   ]
 }
